@@ -1,0 +1,252 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact { 
+  width: 1500px;
+  height: 866px;
+  background: url(../image/2ce-bakg.png) no-repeat;
+  margin: 0 auto;
+}
+
+/*headr*/
+.contact-header { 
+  padding-top: 101px;
+}
+
+.contact-header__title { 
+  color: #262626;
+  font-family: "Raleway";
+  font-size: 90px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contact-header__text { 
+  width: 350px;
+  color: #262626;
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: center;
+  margin: 68px auto;
+}
+
+/*main*/
+.main { 
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-form { 
+  display: flex;
+  flex-direction: column;
+}
+
+.main-form__input1{
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.main-form__input2{
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.main-form__input3{
+  width: 500px;
+  height: 50px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+  padding-left: 20px;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.main-form__input4 {
+  width: 500px;
+  height: 250px;
+  background-color: #00c4c4;
+  opacity: 0.5;
+  padding-left: 20px;
+  margin-bottom: 68px;
+  font-weight: 300;
+}
+
+.main-form label input::placeholder{
+  font-family: "Raleway";
+  font-size: 15px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  color: #ffffff;
+}
+
+.main-form__input4::placeholder{
+  transform:translate3d(0,-100px,0);
+}
+
+.main-form__input1:hover{
+  border-left: 5px solid #355b82;
+  background-color: #00c4c4;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.main-form__input2:hover{
+  border-left: 5px solid #355b82;
+  background-color: #00c4c4;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.main-form__input3:hover{
+  border-left: 5px solid #355b82;
+  background-color: #00c4c4;
+  opacity: 1;
+  font-weight: 700;
+}
+
+.main-form__input4:hover{
+  border-left: 5px solid #355b82;
+  background-color: #00c4c4;
+  opacity: 1;
+  font-weight: 700;
+}
+
+/*Contacts*/
+/*.main-contact { 
+
+}*/
+
+.main-contact__address {
+  font-family: "Raleway";
+  color: #262626;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  font-family: "Raleway - Bold";
+  font-weight: 700;
+}
+
+.main-contact__line-address { 
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.main-contact__email { 
+  color: #262626;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.main-contact__line-email { 
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.main-contact__phone { 
+  color: #262626;
+  font-size: 20px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+
+.main-contact__line-phone { 
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+}
+
+/*footer*/
+.footer { 
+  width: 1500px;
+  height: 90px;
+  background-color: #262626;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footr__subtext1 { 
+  color: #b9b9b9;
+  font-family: "Raleway";
+  font-size: 16px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+}
+
+.footer__logo { 
+  color: #b9b9b9;
+  font-family: "Pacifico";
+  font-size: 25px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: right;
+}
+
+.footr__subtext2 { 
+  color: #b9b9b9;
+  font-family: "Raleway";
+  font-size: 15px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 25px;
+  text-align: left;
+}
+
+.red{
+  color: #ff2b58;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
