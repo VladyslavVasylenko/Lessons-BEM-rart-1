@@ -424,8 +424,10 @@ footer div{
 }
 
 .link{
+  font-size: 18px;
+  box-shadow: #262626;
   text-decoration: none;
-  color: #000000;
+  color: #ff3300;
   display: flex;
   justify-content:center;
 }
